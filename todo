@@ -693,10 +693,10 @@ export SENTENCE_DELIMITERS=',.:;'
 
 configFileLocations=(
     "$HOME/.todo/config"
-    "$HOME/todo.cfg"
-    "$HOME/.todo.cfg"
+    "$HOME/Todofile"
+    "$HOME/Todofile"
     "${XDG_CONFIG_HOME:-$HOME/.config}/todo/config"
-    "$(dirname "$0")/todo.cfg"
+    "$(dirname "$0")/Todofile"
     "$TODOTXT_GLOBAL_CFG_FILE"
 )
 
